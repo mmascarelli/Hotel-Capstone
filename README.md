@@ -13,6 +13,7 @@ Reference: https://www.sciencedirect.com/science/article/pii/S2352340918315191#b
 # Data Wrangling
 
 The notebook can be found here: [Data Wrangling](https://github.com/mmascarelli/Hotel-Capstone/blob/main/Data%20Wrangling.ipynb)
+
 Summary:
 * Loaded and merged the data for the 2 hotels.
 * Dealt with missing values in the `Children` and `Country` columns
@@ -22,6 +23,7 @@ Summary:
 
 # EDA
 The notebook can be found here: [EDA](https://github.com/mmascarelli/Hotel-Capstone/blob/main/EDA.ipynb)
+
 Summary:
 * Removing rows with impossible values to improve data quality (bookings with 0 people listed, and 0 nights, etc.)
 * Extensive feature engineering
@@ -31,6 +33,7 @@ Summary:
 
 # Preprocessing
 The notebook can be found here: [Preprocessing](https://github.com/mmascarelli/Hotel-Capstone/blob/main/Preprocessing.ipynb)
+
 Summary:
 * Separated the data into features and target (X and y)
 * One-hot encoded the categorical features
@@ -40,6 +43,7 @@ Summary:
 
 # Modeling
 The notebook can be found here: [Modeling](https://github.com/mmascarelli/Hotel-Capstone/blob/main/Modeling.ipynb)
+
 Summary:
 * Fit the training data using logistic regression, decision tree, random forest, XGboost, LightGBM
 * Hyperparameter tuning to optimize the F1 score
@@ -52,6 +56,7 @@ Summary:
 <p align="center">
   <img width="917" alt="cm" src="https://github.com/mmascarelli/Hotel-Capstone/assets/116842582/396318d9-6c57-4ef7-a76b-5697eeb332ea">
 </p>
+
 * The LightGB model has shown the most favorable overall results in relation to the specific business value we aim to provide. Out of the 4,784 canceled bookings in our test set, the model accurately identifies 76% of them. However, it is worth noting that this model exhibits a notable decrease in precision. Nevertheless, this decrease in precision is not necessarily problematic since it refers to bookings that were predicted to cancel but actually did not.
 
 * To reiterate the project's objective, our goal is to identify bookings that are likely to cancel in order to make efforts to retain them. If a customer was not planning to cancel in the first place, misclassifying them does not have a significant negative impact. Among the 12,458 successful bookings in the test set, only 22.7% are mistakenly classified as cancellations
