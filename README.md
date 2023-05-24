@@ -49,7 +49,9 @@ Summary:
 * Looked at the predicted probabilites
 
 # Conclusions
-
+<p align="center">
+  <img width="917" alt="cm" src="https://github.com/mmascarelli/Hotel-Capstone/assets/116842582/396318d9-6c57-4ef7-a76b-5697eeb332ea">
+</p>
 * The LightGB model has shown the most favorable overall results in relation to the specific business value we aim to provide. Out of the 4,784 canceled bookings in our test set, the model accurately identifies 76% of them. However, it is worth noting that this model exhibits a notable decrease in precision. Nevertheless, this decrease in precision is not necessarily problematic since it refers to bookings that were predicted to cancel but actually did not.
 
 * To reiterate the project's objective, our goal is to identify bookings that are likely to cancel in order to make efforts to retain them. If a customer was not planning to cancel in the first place, misclassifying them does not have a significant negative impact. Among the 12,458 successful bookings in the test set, only 22.7% are mistakenly classified as cancellations
