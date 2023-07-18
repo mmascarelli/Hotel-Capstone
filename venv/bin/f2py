@@ -1,6 +1,4 @@
-#!/bin/sh
-'''exec' "/Users/matt/Desktop/Springboard/Capstone 2/venv/bin/python3" "$0" "$@"
-' '''
+#!/Users/matt/Desktop/Hotel-Capstone/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
